@@ -5,7 +5,7 @@
     scap_reports_dir: /tmp
     scap_profile: stig-rhel7-disa
   roles:
-    - { role: RedHatOfficial.rhel7_stig }
+    - { role: rhtps.800-53 }
 
   tasks:
     - name: determine the most recent scap report
